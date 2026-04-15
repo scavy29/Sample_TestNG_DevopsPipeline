@@ -7,19 +7,19 @@ platforms:
     os: Windows
     osVersion: 11
     browserVersion: latest
-  - browserName: Safari
-    os: OS X
-    osVersion: Tahoe
-    browserVersion: 26.2
-  - browserName: samsung
-    osVersion: 16.0
-    deviceName: Samsung Galaxy S26 Ultra
-  - browserName: safari
-    osVersion: 26
-    deviceName: iPhone 17 Pro Max
-  - browserName: safari
-    osVersion: 26
-    deviceName: iPad Pro 13 2025
+  # - browserName: Safari
+  #   os: OS X
+  #   osVersion: Tahoe
+  #   browserVersion: 26.2
+  # - browserName: samsung
+  #   osVersion: 16.0
+  #   deviceName: Samsung Galaxy S26 Ultra
+  # - browserName: safari
+  #   osVersion: 26
+  #   deviceName: iPhone 17 Pro Max
+  # - browserName: safari
+  #   osVersion: 26
+  #   deviceName: iPad Pro 13 2025
 debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors 
