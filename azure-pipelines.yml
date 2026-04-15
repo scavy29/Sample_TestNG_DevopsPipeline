@@ -18,6 +18,10 @@ steps:
   inputs:
     BrowserStackServiceEndPoint: 'BStackConnection'
     browserstackLocal: true
+    bsLocalOptions: |
+      {
+        "forceLocal": true
+      }
 
 - script: mvn clean install -DskipTests
   displayName: 'Install Dependencies'
