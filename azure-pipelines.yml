@@ -24,7 +24,6 @@ steps:
       }
 
 - script: mvn clean install -DskipTests
-  displayName: 'Install Dependencies'
 
 - script: mvn test -P sample-test
   displayName: 'Run TestNG Tests'
