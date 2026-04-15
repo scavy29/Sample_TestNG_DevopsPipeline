@@ -9,7 +9,6 @@ platforms:
     browserName: Chrome
     browserVersion: latest    
 source: testng:sample-master:v1.1
-# browserstackLocal: true # <boolean> (Default false)
 debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors 
