@@ -14,14 +14,14 @@ steps:
   env:
     BROWSERSTACK_USERNAME: $(BROWSERSTACK_USERNAME)
 
-- task: BrowserStackConfig@0
-  inputs:
-    BrowserStackServiceEndPoint: 'BStackConnection'
-    browserstackLocal: true
-    bsLocalOptions: |
-      {
-        "forceLocal": true
-      }
+# - task: BrowserStackConfig@0
+#   inputs:
+#     BrowserStackServiceEndPoint: 'BStackConnection'
+#     browserstackLocal: true
+#     bsLocalOptions: |
+#       {
+#         "forceLocal": true
+#       }
 
 - script: mvn clean install -DskipTests
   displayName: 'Install Dependencies'
