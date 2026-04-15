@@ -7,21 +7,13 @@ platforms:
     os: Windows
     osVersion: 11
     browserVersion: latest
-  - browserName: Safari
-    os: OS X
-    osVersion: Tahoe
-    browserVersion: 26.2
   - browserName: Chrome
     os: Windows
-    osVersion: 11
+    osVersion: 10
     browserVersion: latest
-  - browserName: Safari
-    os: OS X
-    osVersion: Tahoe
-    browserVersion: 26.2
 debug: false # <boolean> # Set to true if you need screenshots for every selenium command ran
 networkLogs: false # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors 
-browserstackLocal: true
-browserStackLocalOptions:
-  forcelocal: true 
+# browserstackLocal: true
+# browserStackLocalOptions:
+#   forcelocal: true 
